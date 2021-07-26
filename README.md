@@ -70,8 +70,19 @@ Proud of the following after the "position" property was successfully implemente
 - Overall, I understood about the [position] property, [z-index] and [pseduselector-property] of CSS in a  better way after doing this project.
 
 
- Also,  faced  a little difficulty in adjusting the "icons" class correctly. 
+Also,  faced  a little difficulty in adjusting the "icons" class correctly and I could convert the colors of the fav-icons using  :
 
+ ```css
+ .icons
+ {
+   filter:invert(1);
+ } 
+```
+ but, as the previous color was black but on applying [filter:invert(1)] css property [icons] became [green] instead of being [black].
+
+
+ So, eventually I couldn't copy the colors of the icons as it was in the project.
+ 
 ### Continued development
 
 I would use it further in my front-end skills mainly on the home page of sites to create a better UI for the users and more attractive.
@@ -79,7 +90,7 @@ I would use it further in my front-end skills mainly on the home page of sites t
 
 ### Author
 
-- Website - [Aman Kumar Singh](https://www.your-site.com)
+- Website - [Aman Kumar Singh](https://amansingh1912.github.io/frontendmentor-huddle-page/)
 - Frontend Mentor - [@amansingh1912](https://www.frontendmentor.io/profile/amansingh1912)
 - Twitter - [@AmanSin54134410](https://twitter.com/AmanSin54134410)
 
