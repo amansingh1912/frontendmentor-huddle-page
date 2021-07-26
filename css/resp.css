@@ -1,0 +1,66 @@
+@media only screen and (max-width:1300px) {
+    .full-content {
+        padding-top: 1.8rem;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .img-cont {
+        height: 20vh;
+        margin: 0rem 2.2rem;
+        padding-bottom: 2rem;
+    }
+    .logo {
+        padding-bottom: 0rem;
+    }
+    .logo img {
+        height: 90px;
+        width: 173px;
+        padding: 0px 28px;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .img-cont img {
+        width: 71vw;
+        height: 26vh;
+    }
+    .content h1 {
+        padding: 0rem 0.3rem;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .content p {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        color: white;
+        font-size: 15px;
+    }
+    .register {
+        width: 50%;
+        font-size: 1rem;
+        margin: 19px auto;
+    }
+    .icons {
+        bottom: 4px;
+        right: 96px;
+        padding-bottom: 1rem;
+    }
+    .insta,
+    .twitter {
+        padding: 10px 10px;
+    }
+    .fb {
+        padding: 10px 10px;
+    }
+    .front-page::before {
+        content: "";
+        background: url(../images/bg-desktop.svg) no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 2px;
+        height: 65%;
+        width: 100%;
+        z-index: 4;
+    }
+}

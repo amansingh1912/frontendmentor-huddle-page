@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.front-page {
+    background: #673ab7;
+    height: 97.5vh;
+    width: 99.1vw;
+}
+
+.front-page::before {
+    content: "";
+    background: url("../images/bg-desktop.svg") no-repeat;
+    position: absolute;
+    top: 2px;
+    height: 100%;
+    width: 99%;
+    z-index: 3;
+}
+
+.full-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0% 4%;
+    padding-top: 3rem;
+}
+
+.logo {
+    padding-bottom: 2.9rem;
+    cursor: pointer;
+}
+
+.logo img {
+    height: 100px;
+    width: 200px;
+}
+
+.img-cont {
+    width: 50vw;
+    text-align: left;
+}
+
+.img-cont img {
+    position: relative;
+    z-index: 4;
+}
+
+.content {
+    display: flex;
+    justify-content: left;
+}
+
+.content h1 {
+    padding: 0.2rem 2rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+.content p {
+    padding-top: 2.2rem;
+    padding-left: 2rem;
+    /* padding-right: 17rem; */
+    color: white;
+    font-size: 20px;
+}
+
+.cont-sub {
+    margin: 3rem 2rem;
+    font-size: 1.5rem;
+}
+
+.register {
+    display: block;
+    width: 30%;
+    border: 2px solid grey;
+    border-radius: 23px;
+    padding: 9px 4px;
+    font-size: 1.4rem;
+    color: #673ab7;
+    background: white;
+    margin: 1.5rem 0rem;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+
+.register a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    position: absolute;
+    bottom: 44px;
+    right: 58px;
+    filter: invert(1);
+    padding: 6px 9px;
+}
+
+.insta,
+.twitter {
+    border: 2px solid black;
+    margin: 0px 10px;
+    border-radius: 41px;
+    padding: 10px 12px;
+}
+
+.fb {
+    border: 2px solid black;
+    margin: 0px 10px;
+    border-radius: 41px;
+    padding: 10px 14px;
+}
+
+
+/* //for footer */
+
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    height: 30px;
+    font-size: 14px;
+}
+
+footer a {
+    cursor: pointer;
+    text-decoration: none;
+    color: violet;
+}
